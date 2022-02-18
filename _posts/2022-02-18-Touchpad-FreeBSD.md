@@ -4,8 +4,7 @@ title: Hard Target
 intro: The true story about one touchpad fix on FreeBSD.    
 introImg: assets/images/freebsd-psm/feb17logo.jpg
 titleImg: assets/images/freebsd-psm/feb17.jpg
-comments:true
-
+comments: true
 ---
 
 This rainy day I finally solved one of my longest-running issues with FreeBSD:
