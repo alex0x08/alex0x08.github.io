@@ -22,6 +22,11 @@ domain: alex0x08.github.io
 url: https://alex0x08.github.io/
 #https://andrewhwanpark.github.io/minimal-bootstrap-blog/
 
+
+repository: alex0x08/alex0x08.github.io
+
+
+
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
@@ -38,6 +43,13 @@ logo: /assets/images/alex.jpg
 google_analytics:
 
 permalink: /:year/:month/:day/:title/
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: alex0x08
+
 
 # Includes an icon in the footer for each username you enter
 footer-links:
