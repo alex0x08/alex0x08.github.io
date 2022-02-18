@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+
+<div class="container">
+  {% for post in site.posts %} {% assign currDate = post.date | date: "%B %Y" %} 
+  <div class="row">
+    <div class="col">
+
+      {% if post.introImg  %}
+      <img src="{{'/' | relative_url}}{{post.introImg}}" 
+        class="rounded float-end"
+        alt="Title Logo"  />
+      {% endif %}
+
+    </div>
+    <div class="col-8">
+
+      <span class="post-date archive-date fs-4"
+      >{{ post.date | date: "%B %d, %Y" }}</span>
+   
+    <a href="{{ post.url | relative_url }}" class="archive-title fs-4"
+      >{{ post.title }}</a>
+	<div>
+
+
+	  <p>
+      {{ post.intro }}
+
+    </p>
+
+
+    </div>
+
+ 	</div>
+  </div>
+  {% endfor %}
+</div>
