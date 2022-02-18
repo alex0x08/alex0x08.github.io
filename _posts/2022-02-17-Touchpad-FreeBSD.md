@@ -4,6 +4,8 @@ title: Hard Target
 intro: The true story about one touchpad fix on FreeBSD.    
 introImg: assets/images/freebsd-psm/feb17logo.jpg
 titleImg: assets/images/freebsd-psm/feb17.jpg
+comments:true
+
 ---
 
 This rainy day I finally solved one of my longest-running issues with FreeBSD:
@@ -34,7 +36,7 @@ Below are some links on similar issues with touchpad requiring i8042.notimeout s
 
 This code block in FreeBSD PSM driver is responsible for timeouts check:
 
- ![Source Sample]({{site.baseurl}}/assets/images/freebsd-psm/freebsd-psm-screen1.png)
+ ![Source Sample](/assets/images/freebsd-psm/freebsd-psm-screen1.png)
 
 [https://github.com/freebsd/freebsd-src/blob/releng/13.0/sys/dev/atkbdc/psm.c#3014](https://github.com/freebsd/freebsd-src/blob/releng/13.0/sys/dev/atkbdc/psm.c#3014)
 
