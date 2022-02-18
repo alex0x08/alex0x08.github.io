@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Ancient Software Developer, living in the internet since 1998. 
+Was FIDOnet member, had own BBS and seen X.25 networks in action ;)
 
-### More Information
+Old Unix and Linux user, still have FreeBSDs on some of my laptops.
 
-A place to include any other types of information that you'd like to include about yourself.
+Somehow I touched almost all popular languages, OSes, frameworks and technologies, but still think that I'm dumb and know nothing.
 
-### Contact me
+### Contacts
 
-
+I'm primary work as external consultant, so please don't spam me with full-time job offerings. 
 
 <i class="fa fa-envelope-o" aria-hidden="true"></i>
 [email](mailto:alex3.145@gmail.com)
